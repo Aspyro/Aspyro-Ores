@@ -18,6 +18,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASPYRIUM_DUST = ITEMS.register("aspyrium_dust",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_ASPYRIUM = ITEMS.register("raw_aspyrium",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus)
