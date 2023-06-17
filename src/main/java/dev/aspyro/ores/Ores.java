@@ -46,6 +46,7 @@ public class Ores
         {
             event.accept(ModItems.ASPYRIUM_INGOT);
             event.accept(ModItems.ASPYRIUM_COMPOUND);
+            event.accept(ModItems.ASPYRIUM_DUST);
         }
     }
 
