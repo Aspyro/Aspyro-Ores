@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> ASPYRIUM_INGOT = ITEMS.register("aspyrium_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ASPYRIUM_COMPOUND = ITEMS.register("aspyrium_compound",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

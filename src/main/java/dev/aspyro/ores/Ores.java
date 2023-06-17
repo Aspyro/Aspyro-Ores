@@ -45,6 +45,7 @@ public class Ores
         if(event.getTab() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.ASPYRIUM_INGOT);
+            event.accept(ModItems.ASPYRIUM_COMPOUND);
         }
     }
 
