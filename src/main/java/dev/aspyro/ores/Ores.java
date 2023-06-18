@@ -52,6 +52,7 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_HAMMER);
             event.accept(ModItems.DIAMOND_HAMMER);
             event.accept(ModItems.NETHERITE_HAMMER);
+            event.accept(ModItems.ASPYRIUM_STICK);
 
         }
 

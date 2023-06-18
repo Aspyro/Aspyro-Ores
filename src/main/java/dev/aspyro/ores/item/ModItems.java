@@ -28,6 +28,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ASPYRIUM_STICK = ITEMS.register("aspyrium_stick",
+            () -> new Item(new Item.Properties()));
 
 
 
