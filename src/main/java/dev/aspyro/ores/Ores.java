@@ -1,6 +1,7 @@
 package dev.aspyro.ores;
 
 import com.mojang.logging.LogUtils;
+import dev.aspyro.ores.block.ModBlocks;
 import dev.aspyro.ores.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class Ores
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -54,6 +56,10 @@ public class Ores
             event.accept(ModItems.NETHERITE_HAMMER);
             event.accept(ModItems.ASPYRIUM_STICK);
 
+        }
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.ASPYRIUM_ORE);
         }
 
     }
