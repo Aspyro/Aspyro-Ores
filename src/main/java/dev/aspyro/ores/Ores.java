@@ -48,7 +48,13 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_COMPOUND);
             event.accept(ModItems.ASPYRIUM_DUST);
             event.accept(ModItems.RAW_ASPYRIUM);
+            event.accept(ModItems.IRON_HAMMER);
+            event.accept(ModItems.ASPYRIUM_HAMMER);
+            event.accept(ModItems.DIAMOND_HAMMER);
+            event.accept(ModItems.NETHERITE_HAMMER);
+
         }
+
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
