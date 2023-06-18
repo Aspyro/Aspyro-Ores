@@ -3,6 +3,8 @@
 Here is my mod comporting many ores. Most of them will be original creations, but some of them will be adaptation of already existing concepts.
 With them are some tools used by the mod.
 
+A big thank you to shiroroku for the textures !
+
 ## Ores
 
 ### Aspyrium Ore
