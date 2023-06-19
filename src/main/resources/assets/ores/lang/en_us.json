@@ -10,5 +10,11 @@
   "item.ores.aspyrium_hammer": "Aspyrium Hammer",
   "item.ores.diamond_hammer": "Diamond Hammer",
   "item.ores.netherite_hammer": "Netherite Hammer",
-  "item.ores.aspyrium_stick": "Aspyrium Upgraded Stick"
+  "item.ores.aspyrium_stick": "Aspyrium Upgraded Stick",
+
+  "item.ores.aspyrium_axe": "Aspyrium Axe",
+  "item.ores.aspyrium_pickaxe": "Aspyrium Pickaxe",
+  "item.ores.aspyrium_hoe": "Aspyrium Hoe",
+  "item.ores.aspyrium_shovel": "Aspyrium Shovel",
+  "item.ores.aspyrium_sword": "Aspyrium Sword"
 }
