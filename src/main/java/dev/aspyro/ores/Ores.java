@@ -59,6 +59,7 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_AXE);
             event.accept(ModItems.ASPYRIUM_PICKAXE);
             event.accept(ModItems.ASPYRIUM_HOE);
+            event.accept(ModItems.ASPYRIUM_SHOVEL);
 
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
