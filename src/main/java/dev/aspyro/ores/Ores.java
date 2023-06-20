@@ -56,6 +56,8 @@ public class Ores
             event.accept(ModItems.NETHERITE_HAMMER);
             event.accept(ModItems.ASPYRIUM_STICK);
 
+            event.accept(ModItems.ASPYRIUM_AXE);
+
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
         {
