@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ores:item/aspyrium_axe"
+    "layer0": "ores:item/aspyrium_shovel"
   }
 }
