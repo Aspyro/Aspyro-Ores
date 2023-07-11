@@ -54,6 +54,15 @@ A big thank you to shiroroku for the textures !
   - It has 10% of dropping a second time (randomised as stated above).
   - In a crafting table, it will lose 1 durability per operation.
 
+### Aspyrium tools
+
+#### Aspyrium pickaxe
+
+- It has the same mining level as an Iron pickaxe.
+- It has the same mining speed as an Iron pickaxe.
+- It has the same attack damages as an Iron pickaxe.
+- It has a durability of 384 uses. It's better than an Iron pickaxe (250).
+
 ### Aspyrium upgraded stick
 
 - Aspyrium upgraded stick is a crafting component used to craft the netherite hammer.
