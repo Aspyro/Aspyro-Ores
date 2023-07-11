@@ -2,6 +2,8 @@ package dev.aspyro.ores.item;
 
 import dev.aspyro.ores.Ores;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -37,7 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> ASPYRIUM_AXE = ITEMS.register("aspyrium_axe",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASPYRIUM_PICKAXE = ITEMS.register("aspyrium_pickaxe",
-            () -> new Item(new Item.Properties()));
+            () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ASPYRIUM_HOE = ITEMS.register("aspyrium_hoe",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASPYRIUM_SHOVEL = ITEMS.register("aspyrium_shovel",
