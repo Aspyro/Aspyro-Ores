@@ -63,6 +63,27 @@ A big thank you to shiroroku for the textures !
 - It has the same attack damages as an Iron pickaxe.
 - It has a durability of 384 uses. It's better than an Iron pickaxe (250).
 
+#### Aspyrium shovel
+
+- It has the same mining level as an Iron shovel.
+- It has the same mining speed as an Iron shovel.
+- It has the same attack damages as an Iron shovel.
+- It has a durability of 384 uses. It's better than an Iron shovel (250).
+
+#### Aspyrium axe
+
+- It has the same mining level as an Iron axe.
+- It has the same mining speed as an Iron axe.
+- It has the same attack damages as an Iron axe.
+- It has a durability of 384 uses. It's better than an Iron axe (250).
+
+#### Aspyrium hoe
+
+- It has the same mining level as an Iron hoe.
+- It has the same mining speed as an Iron hoe.
+- It has the same attack damages as an Iron hoe.
+- It has a durability of 384 uses. It's better than an Iron hoe (250).
+
 ### Aspyrium upgraded stick
 
 - Aspyrium upgraded stick is a crafting component used to craft the netherite hammer.
