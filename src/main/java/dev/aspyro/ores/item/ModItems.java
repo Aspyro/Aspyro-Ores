@@ -39,7 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> ASPYRIUM_PICKAXE = ITEMS.register("aspyrium_pickaxe",
             () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ASPYRIUM_HOE = ITEMS.register("aspyrium_hoe",
-            () -> new Item(new Item.Properties()));
+            () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ASPYRIUM_SHOVEL = ITEMS.register("aspyrium_shovel",
             () -> new ShovelItem(Tiers.IRON, 1.5F, -3F, new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ASPYRIUM_SWORD = ITEMS.register("aspyrium_sword",
