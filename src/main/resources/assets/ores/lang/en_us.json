@@ -16,5 +16,7 @@
   "item.ores.aspyrium_pickaxe": "Aspyrium Pickaxe",
   "item.ores.aspyrium_hoe": "Aspyrium Hoe",
   "item.ores.aspyrium_shovel": "Aspyrium Shovel",
-  "item.ores.aspyrium_sword": "Aspyrium Sword"
+  "item.ores.aspyrium_sword": "Aspyrium Sword",
+
+  "creativemodetab.aspyro_ores_tab": "Aspyro Ores"
 }
