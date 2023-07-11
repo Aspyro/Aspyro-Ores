@@ -61,6 +61,8 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_HOE);
             event.accept(ModItems.ASPYRIUM_SHOVEL);
 
+            event.accept(ModItems.QUIXELAN_GEM);
+
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
         {
