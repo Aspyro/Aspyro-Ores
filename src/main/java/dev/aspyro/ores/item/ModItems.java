@@ -43,7 +43,7 @@ public class ModItems {
     public static final RegistryObject<Item> ASPYRIUM_SHOVEL = ITEMS.register("aspyrium_shovel",
             () -> new ShovelItem(Tiers.IRON, 1.5F, -3F, new Item.Properties().durability(384)));
     public static final RegistryObject<Item> ASPYRIUM_SWORD = ITEMS.register("aspyrium_sword",
-            () -> new Item(new Item.Properties()));
+            () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().durability(384)));
 
 
 
