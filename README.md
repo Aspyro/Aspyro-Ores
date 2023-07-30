@@ -22,6 +22,12 @@ A big thank you to shiroroku for the textures !
 - Questions of mod compatibility ? [WIP WIP]
   - Aspyrium color code : RGB(250,215,170)
 
+## Quixelan Ore
+
+- Quixelan Ore is an ore that can be found rarely high in the mountain biomes of the Overworld. [WIP]
+- When mined, you drop a Quixelan Gem. [WIP]
+- Quixelan Ore and Quixelan Gem are purple.
+
 ## Tools
 
 ### Hammers
@@ -54,7 +60,25 @@ A big thank you to shiroroku for the textures !
   - It has 10% of dropping a second time (randomised as stated above).
   - In a crafting table, it will lose 1 durability per operation.
 
+## Items
+
 ### Aspyrium upgraded stick
 
 - Aspyrium upgraded stick is a crafting component used to craft the netherite hammer.
 - 4 aspyrium upgraded sticks are the result of associating 4 sticks with 5 aspyrium powder in a crafting table (shapeless). [WIP]
+
+### Infused Quixelan gem
+
+- In an Anvil, you can infuse 1 Quixelan Gem with 1 Speed II potion (Splash potion and long potion included) to get one Infused Quixelan Gem.
+- Infused Quixelan gem are used to give a Speed II permanent modifier on boots already modified with Speed I modifier.
+
+### Infused boots
+
+- Infused boots are boots assembled with Quixelan gem or infused Quixelan gem.
+- Iron boots, Gold boots, Diamond boots and Netherite boots can be infused with Quixelan gems. 
+- Gems cannot be forged in leather and chainmail boots as they are too fragile.
+- In a Smithing table, you can add two Quixelan Gems to boots to give it a permanent Speed I modifier.
+- In a Smithing table, you can add two Infused Quixelan Gems to boots with a Speed I modifier to give it
+  a permanent Speed II modifier.
+- Permanent Speed modifiers from Quixelan infused boots accumulates with other Speed sources.
+- Slowness status cancel the Speed I or Speed II modifier before applying for the duration of the status.
