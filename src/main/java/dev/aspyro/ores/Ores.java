@@ -71,6 +71,12 @@ public class Ores
             event.accept(ModItems.DIAMOND_CHESTPLATE_WITH_SINJ_GEM);
             event.accept(ModItems.NETHERITE_CHESTPLATE_WITH_SINJ_GEM);
 
+            event.accept(ModItems.QUIXELAN_GEM);
+
+        }
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.ASPYRIUM_ORE);
         }
 
     }

@@ -58,7 +58,8 @@ public class ModItems {
     public static final RegistryObject<Item> ASPYRIUM_SWORD = ITEMS.register("aspyrium_sword",
             () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().durability(384)));
 
-
+    public static final RegistryObject<Item> QUIXELAN_GEM = ITEMS.register("quixelan_gem",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {
