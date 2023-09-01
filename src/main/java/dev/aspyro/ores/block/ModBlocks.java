@@ -22,6 +22,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ASPYRIUM_ORE = registerBlock("aspyrium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SINJ_ORE = registerBlock("sinj_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3.0F).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

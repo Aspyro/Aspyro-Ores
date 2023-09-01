@@ -4,7 +4,14 @@
   "item.ores.aspyrium_dust": "Aspyrium Dust",
   "item.ores.raw_aspyrium": "Raw Aspyrium",
 
+  "item.ores.sinj_gem": "Sinj Gem",
+  "item.ores.iron_chestplate_with_sinj_gem": "Iron Chestplate with Sinj Gem",
+  "item.ores.gold_chestplate_with_sinj_gem": "Gold Chestplate with Sinj Gem",
+  "item.ores.diamond_chestplate_with_sinj_gem": "Diamond Chestplate with Sinj Gem",
+  "item.ores.netherite_chestplate_with_sinj_gem": "Netherite Chestplate with Sinj Gem",
+
   "block.ores.aspyrium_ore": "Aspyrium Ore",
+  "block.ores.sinj_ore": "Sinj Ore",
 
   "item.ores.iron_hammer": "Iron Hammer",
   "item.ores.aspyrium_hammer": "Aspyrium Hammer",

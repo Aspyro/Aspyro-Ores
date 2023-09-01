@@ -64,6 +64,13 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_HOE);
             event.accept(ModItems.ASPYRIUM_SWORD);
 
+            event.accept(ModBlocks.SINJ_ORE);
+            event.accept(ModItems.SINJ_GEM);
+            event.accept(ModItems.IRON_CHESTPLATE_WITH_SINJ_GEM);
+            event.accept(ModItems.GOLD_CHESTPLATE_WITH_SINJ_GEM);
+            event.accept(ModItems.DIAMOND_CHESTPLATE_WITH_SINJ_GEM);
+            event.accept(ModItems.NETHERITE_CHESTPLATE_WITH_SINJ_GEM);
+
         }
 
     }

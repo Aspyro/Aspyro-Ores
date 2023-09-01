@@ -22,6 +22,19 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ASPYRIUM = ITEMS.register("raw_aspyrium",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SINJ_GEM = ITEMS.register("sinj_gem",
+            () -> new Item(new Item.Properties()));
+
+    // ARMORS
+    public static final RegistryObject<Item> IRON_CHESTPLATE_WITH_SINJ_GEM = ITEMS.register("iron_chestplate_with_sinj_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_CHESTPLATE_WITH_SINJ_GEM = ITEMS.register("gold_chestplate_with_sinj_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_CHESTPLATE_WITH_SINJ_GEM = ITEMS.register("diamond_chestplate_with_sinj_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_CHESTPLATE_WITH_SINJ_GEM = ITEMS.register("netherite_chestplate_with_sinj_gem",
+            () -> new Item(new Item.Properties()));
+
     // TOOLS
 
     public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
