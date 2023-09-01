@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import dev.aspyro.ores.block.ModBlocks;
 import dev.aspyro.ores.item.ModCreativeModeTabs;
 import dev.aspyro.ores.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
