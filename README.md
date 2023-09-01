@@ -28,6 +28,16 @@ A big thank you to shiroroku for the textures !
 - When mined, you drop a Quixelan Gem. [WIP]
 - Quixelan Ore and Quixelan Gem are purple.
 
+### Sinj Ore
+
+- Sinj ore is an ore that can be found rarely in specific biomes of the Overworld [WIP]
+- When mined, you drop a Sinj Gem. [WIP]
+- The Sinj Ore needs an Iron pickaxe or higher. [WIP]
+- The Sinj Gem can be forged on a metal chestplate. 
+- It will give the player the ability to climb up leaves as if they were ladders. [WIP]
+- Questions of mod compatibility [WIP WIP]
+  - Sinj color code : RGB(50,150,30)
+
 ## Tools
 
 ### Hammers
@@ -61,6 +71,38 @@ A big thank you to shiroroku for the textures !
   - In a crafting table, it will lose 1 durability per operation.
 
 ## Items
+
+### Aspyrium tools
+
+#### Aspyrium pickaxe
+
+- It has the same mining level as an Iron pickaxe.
+- It has the same mining speed as an Iron pickaxe.
+- It has the same attack damages as an Iron pickaxe.
+- It has a durability of 384 uses. It's better than an Iron pickaxe (250).
+
+#### Aspyrium shovel
+
+- It has the same mining level as an Iron shovel.
+- It has the same mining speed as an Iron shovel.
+- It has the same attack damages as an Iron shovel.
+- It has a durability of 384 uses. It's better than an Iron shovel (250).
+
+#### Aspyrium axe
+
+- It has the same mining level as an Iron axe.
+- It has the same mining speed as an Iron axe.
+- It has the same attack damages as an Iron axe.
+- It has a durability of 384 uses. It's better than an Iron axe (250).
+
+#### Aspyrium hoe
+
+- It has the same mining level as an Iron hoe.
+- It has the same mining speed as an Iron hoe.
+- It has the same attack damages as an Iron hoe.
+- It has a durability of 384 uses. It's better than an Iron hoe (250).
+
+### Others
 
 ### Aspyrium upgraded stick
 
