@@ -26,5 +26,7 @@
   "item.ores.aspyrium_shovel": "Aspyrium Shovel",
   "item.ores.aspyrium_sword": "Aspyrium Sword",
 
-  "creativemodetab.aspyro_ores_tab": "Aspyro Ores"
+  "creativemodetab.aspyro_ores_tab": "Aspyro Ores - Ores",
+  "creativemodetab.aspyro_tools_tab": "Aspyro Ores - Tools",
+  "creativemodetab.aspyro_misc_tab": "Aspyro Ores - Miscellaneous"
 }

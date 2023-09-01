@@ -45,15 +45,22 @@ public class Ores
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-        if(event.getTab() == ModCreativeModeTabs.ASPYRO_ORES_TAB)
+        if(event.getTab() == ModCreativeModeTabs.ORES_CREATIVE_TAB)
         {
             event.accept(ModBlocks.ASPYRIUM_ORE);
             event.accept(ModItems.RAW_ASPYRIUM);
             event.accept(ModItems.ASPYRIUM_DUST);
             event.accept(ModItems.ASPYRIUM_COMPOUND);
             event.accept(ModItems.ASPYRIUM_INGOT);
-            event.accept(ModItems.ASPYRIUM_STICK);
 
+            event.accept(ModBlocks.SINJ_ORE);
+            event.accept(ModItems.SINJ_GEM);
+
+            event.accept(ModItems.QUIXELAN_GEM);
+
+        }
+
+        if(event.getTab() == ModCreativeModeTabs.TOOLS_CREATIVE_TAB) {
             event.accept(ModItems.IRON_HAMMER);
             event.accept(ModItems.ASPYRIUM_HAMMER);
             event.accept(ModItems.DIAMOND_HAMMER);
@@ -65,19 +72,14 @@ public class Ores
             event.accept(ModItems.ASPYRIUM_HOE);
             event.accept(ModItems.ASPYRIUM_SWORD);
 
-            event.accept(ModBlocks.SINJ_ORE);
-            event.accept(ModItems.SINJ_GEM);
             event.accept(ModItems.IRON_CHESTPLATE_WITH_SINJ_GEM);
             event.accept(ModItems.GOLD_CHESTPLATE_WITH_SINJ_GEM);
             event.accept(ModItems.DIAMOND_CHESTPLATE_WITH_SINJ_GEM);
             event.accept(ModItems.NETHERITE_CHESTPLATE_WITH_SINJ_GEM);
-
-            event.accept(ModItems.QUIXELAN_GEM);
-
         }
-        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
-        {
-            event.accept(ModBlocks.ASPYRIUM_ORE);
+
+        if(event.getTab() == ModCreativeModeTabs.MISC_CREATIVE_TAB) {
+            event.accept(ModItems.ASPYRIUM_STICK);
         }
 
     }

@@ -12,12 +12,26 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = Ores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
 
-    public static CreativeModeTab ASPYRO_ORES_TAB;
+    public static CreativeModeTab ORES_CREATIVE_TAB;
+    public static CreativeModeTab TOOLS_CREATIVE_TAB;
+    public static CreativeModeTab MISC_CREATIVE_TAB;
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        ASPYRO_ORES_TAB = event.registerCreativeModeTab(new ResourceLocation(Ores.MOD_ID, "aspyro_ores_tab"),
+
+        ORES_CREATIVE_TAB = event.registerCreativeModeTab(
+                new ResourceLocation(Ores.MOD_ID, "aspyro_ores_tab"),
                 builder -> builder.icon(() -> new ItemStack(ModItems.ASPYRIUM_INGOT.get()))
                         .title(Component.translatable("creativemodetab.aspyro_ores_tab")));
+
+        TOOLS_CREATIVE_TAB = event.registerCreativeModeTab(
+                new ResourceLocation(Ores.MOD_ID, "aspyro_tools_tab"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.ASPYRIUM_INGOT.get()))
+                        .title(Component.translatable("creativemodetab.aspyro_tools_tab")));
+
+        MISC_CREATIVE_TAB = event.registerCreativeModeTab(
+                new ResourceLocation(Ores.MOD_ID, "aspyro_misc_tab"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.ASPYRIUM_INGOT.get()))
+                        .title(Component.translatable("creativemodetab.aspyro_misc_tab")));
     }
 }
