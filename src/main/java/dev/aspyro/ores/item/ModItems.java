@@ -1,6 +1,7 @@
 package dev.aspyro.ores.item;
 
 import dev.aspyro.ores.Ores;
+import dev.aspyro.ores.item.custom.HammerItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -38,13 +39,17 @@ public class ModItems {
     // TOOLS
 
     public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(Tiers.IRON, 4, -2.9F,
+                    new Item.Properties().durability(Tiers.IRON.getUses())));
     public static final RegistryObject<Item> ASPYRIUM_HAMMER = ITEMS.register("aspyrium_hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(Tiers.IRON, 4, -2.9F,
+                    new Item.Properties().durability(384)));
     public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(Tiers.DIAMOND, 4, -2.9F,
+                    new Item.Properties().durability(Tiers.DIAMOND.getUses())));
     public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
-            () -> new Item(new Item.Properties()));
+            () -> new HammerItem(Tiers.NETHERITE, 4, -2.9F,
+                    new Item.Properties().durability(Tiers.NETHERITE.getUses()).fireResistant()));
     public static final RegistryObject<Item> ASPYRIUM_STICK = ITEMS.register("aspyrium_stick",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ASPYRIUM_AXE = ITEMS.register("aspyrium_axe",
