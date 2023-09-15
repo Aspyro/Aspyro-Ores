@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "ores:aspyrium_ingot"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "A#A",
+    " # "
+  ],
+  "result": {
+    "item": "ores:aspyrium_hammer"
+  }
+}
