@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "ores:aspyrium_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "ores:aspyrium_pickaxe"
+  }
+}
