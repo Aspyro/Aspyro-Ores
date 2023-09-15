@@ -198,37 +198,37 @@ a Crafting Table (shapeless). [WIP]
 
 #### Quixelan Gem
 
-- Quixelan Gem is a drop from Quixelan Ore.
-- Quixelan Gem can be infused in an Anvil with a Speed II potion to get one Infused Quixelan Gem.
+- Quixelan Gem is a drop from Quixelan Ore. [WIP]
+- Quixelan Gem can be infused in an Anvil with a Speed II potion to get one Infused Quixelan Gem. [WIP]
 - Quixelan Gem can be used to create Quixelan-forged Boots by associating two Quixelan Gems to metallic boots 
-in a Smithing Table.
+in a Smithing Table. [WIP]
   - Valid boots : Iron Boots, Golden Boots, Diamond Boots, Netherite Boots.
 
 #### Infused Quixelan Gem
 
-- Infused Quixelan Gem is obtained by infusing a Quixelan Gem with a Speed II potion in an Anvil.
+- Infused Quixelan Gem is obtained by infusing a Quixelan Gem with a Speed II potion in an Anvil. [WIP]
 - Infused Quixelan Gem can be used to create Infused Quixelan-forged Boots by associating two Infused Quixelan Gems
-to Quixelan-forged Boots in a Smithing Table.
+to Quixelan-forged Boots in a Smithing Table. [WIP]
   - Valid boots : Quixelan-forged Iron Boots, Quixelan-forged Golden Boots, Quixelan-forged Diamond Boots, 
 Quixelan-forged Netherite Boots.
 
 #### Quixelan-forged Boots
 
-- Quixelan-forged Boots are obtained by associating two Quixelan Gems to metallic boots in a Smithing Table.
+- Quixelan-forged Boots are obtained by associating two Quixelan Gems to metallic boots in a Smithing Table. [WIP]
   - Valid boots : Iron Boots, Golden Boots, Diamond Boots, Netherite Boots.
   - Gems cannot be forged in leather and chainmail as they are too fragile.
-- Quixelan-forged Boots have a permanent Speed I boost when worn by the player.
+- Quixelan-forged Boots have a permanent Speed I boost when worn by the player. [WIP]
   - Permanent Speed I boost accumulates with other Speed sources.
   - Slowness status cancels th Speed I boost before applying for the duration of the status.
 
 #### Infused Quixelan-forged Boots
 
 - Infused Quixelan-forged Boots are obtained by associating two Infused Quixelan Gems to Quixelan-forged metallic 
-boots in a Smithing Table.
+boots in a Smithing Table. [WIP]
   - Valid boots: Quixelan-forged Iron Boots, Quixelan-forged Golden Boots, Quixelan-forged Diamond Boots,
 Quixelan-forged Netherite Boots.
   - Gems cannot be forged in leather and chainmail as they are too fragile.
-- Infused Quixelan-forged Boots have a permanent Speed II boost when worn by the player.
+- Infused Quixelan-forged Boots have a permanent Speed II boost when worn by the player. [WIP]
   - Permanent Speed II boost accumulates with other Speed sources.
   - Slowness status cancels the Speed II boost before applying for the duration of the status.
 
@@ -236,15 +236,15 @@ Quixelan-forged Netherite Boots.
 
 #### Sinj Gem
 
-- Sinj Gem is a drop from Sinj Ore.
+- Sinj Gem is a drop from Sinj Ore. [WIP]
 - Sinj Gem can be used to create a Sinj-forged Chestplate by associating one Sinj Gem with a metallic chestplate 
-in a Smithing Table.
+in a Smithing Table. [WIP]
   - Valid chestplates : Iron chestplate, Golden Chestplate, Diamond Chestplate, Netherite Chestplate.
   
 #### Sinj-forged Chestplate
 
-- Sinj-forged Chestplate is obtained by associating one Sinj Gem with a metallic chestplate in a Smithing Table.
+- Sinj-forged Chestplate is obtained by associating one Sinj Gem with a metallic chestplate in a Smithing Table. [WIP]
   - Valid Chestplates : Iron Chestplate, Golden Chestplate, Diamond Chestplate, Netherite Chestplate.
   - Gems cannot be forged in leather and chainmail as they are too fragile.
-- Sinj-forged Chestplate gives the player the ability to climb leaves blocks as if they were ladders or vines when worn.
-- 
+- Sinj-forged Chestplate gives the player the ability to climb leaves blocks as if they were ladders or vines 
+when worn. [WIP]
