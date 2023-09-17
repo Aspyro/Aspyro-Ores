@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "frozen_river",
+    "river"
+  ],
+  "features": "ores:aspyrium_placed",
+  "step": "underground_ores"
+}
