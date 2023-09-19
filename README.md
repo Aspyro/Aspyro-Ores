@@ -41,7 +41,7 @@ A big thank you to shiroroku for some of the textures !
 
 ### Aspyrium Ore
 
-- Aspyrium Ore main spawn is located under river biomes, at Y-levels 50 to 60. [WIP]
+- Aspyrium Ore main spawn is located under river biomes, at Y-levels 40 to 50.
 - Aspyrium Ore can also be found rarely beneath the ground in other biomes of the Overworld, at Y-level 40 to 75. [WIP]
 - Aspyrium Ore can be mined with a pickaxe of level Iron or better to drop a Raw Aspyrium.
   - It is affected by Fortune. [WIP]
@@ -66,12 +66,12 @@ Powder in place of the Raw Aspyrium.
 
 ### Hammers
 
-The Hammer is a tool used to mine some ores to get different drops. [WIP]
-It can also be used in a crafting table at the cost of 1 durability per operation.
+- The Hammer is a tool used to mine some ores to get different drops. [WIP]
+- It can also be used in a crafting table at the cost of 1 durability per operation.
 
 #### Iron Hammer
 
-- Iron Hammer is crafted using 5 Iron Ingots and 2 sticks. [WIP]
+- Iron Hammer is crafted using 5 Iron Ingots and 2 sticks.
 - Iron Hammer has Iron mining level.
 - Iron Hammer has Iron durability.
 - Iron Hammer has Iron mining speed.
@@ -167,32 +167,32 @@ It can also be used in a crafting table at the cost of 1 durability per operatio
 
 - Raw Aspyrium is a drop from Aspyrium Ore.
 - Raw Aspyrium must be processed into Aspyrium Dust to be used.
-- One Raw Aspyrium in a crafting table with a Hammer gives one Aspyrium Dust. [WIP]
+- One Raw Aspyrium in a crafting table with a Hammer gives one Aspyrium Dust.
 
 #### Aspyrium Dust
 
 - Aspyrium Dust can be obtained by mining Aspyrium Ore with a Hammer or by associating a Raw Aspyrium with a Hammer 
 in a crafting table.
-- Aspyrium Dust can be associated in a crafting table with Glowstone Dust to get Aspyrium Compound. [WIP]
+- Aspyrium Dust can be associated in a crafting table with Glowstone Dust to get Aspyrium Compound.
 
 #### Aspyrium Compound
 
-- Aspyrium Compound is obtained by associating one Aspyrium Dust with one Glowstone Dust in a crafting table. [WIP]
-- Aspyrium Compound can be used to craft one Aspyrium Ingot when added to an Iron Ingot in a Smithing Table. [WIP]
+- Aspyrium Compound is obtained by associating one Aspyrium Dust with one Glowstone Dust in a crafting table.
+- Aspyrium Compound can be used to craft one Aspyrium Ingot when added to an Iron Ingot in a Smithing Table.
 - Aspyrium Compound can be used to craft four Aspyrium Upgraded Sticks when four Sticks are crafted with 
-five Aspyrium Compound in a Crafting Table (shapeless). [WIP]
+five Aspyrium Compound in a Crafting Table (shapeless).
 
 #### Aspyrium Ingot
 
-- Aspyrium Ingot is obtained when one Aspyrium Compound is added to one Iron Ingot in a Smithing Table. [WIP]
-- Aspyrium Ingot can be used to craft an Aspyrium Hammer and a Diamond Hammer. [WIP]
-- Aspyrium Ingot can be used to craft an Aspyrium Pickaxe, an Aspyrium Shovel, an Aspyrium Axe and an Aspyrium Hoe. [WIP]
+- Aspyrium Ingot is obtained when one Aspyrium Compound is added to one Iron Ingot in a Smithing Table.
+- Aspyrium Ingot can be used to craft an Aspyrium Hammer and a Diamond Hammer.
+- Aspyrium Ingot can be used to craft an Aspyrium Pickaxe, an Aspyrium Shovel, an Aspyrium Axe and an Aspyrium Hoe.
 
 #### Aspyrium Upgraded Stick
 
 - Aspyrium Upgraded Stick is obtained by four by associating four Sticks with five Aspyrium Compounds in 
-a Crafting Table (shapeless). [WIP]
-- Aspyrium Upgraded Stick can be used to craft a Netherite Hammer. [WIP]
+a Crafting Table (shapeless).
+- Aspyrium Upgraded Stick can be used to craft a Netherite Hammer.
 
 ### Quixelan Items
 
