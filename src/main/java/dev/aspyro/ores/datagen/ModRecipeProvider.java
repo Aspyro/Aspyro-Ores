@@ -8,11 +8,9 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.crafting.ShapedRecipe;
+import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -82,38 +80,78 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
 
         // Aspyrium Axe
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ASPYRIUM_AXE.get())
-                .define('A', ModItems.ASPYRIUM_INGOT.get()).define('S', Items.STICK)
-                .pattern("AA ").pattern("AS ").pattern(" S ")
-                .unlockedBy("has_aspyrium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ASPYRIUM_INGOT.get()).build()))
-                .save(consumer);
+        axe(consumer, ModItems.ASPYRIUM_AXE.get(), ModItems.ASPYRIUM_INGOT.get());
 
         // Aspyrium Hoe
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ASPYRIUM_HOE.get())
-                .define('A', ModItems.ASPYRIUM_INGOT.get()).define('S', Items.STICK)
-                .pattern("AA ").pattern(" S ").pattern(" S ")
-                .unlockedBy("has_aspyrium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ASPYRIUM_INGOT.get()).build()))
-                .save(consumer);
+        hoe(consumer, ModItems.ASPYRIUM_HOE.get(), ModItems.ASPYRIUM_INGOT.get());
 
         // Aspyrium Pickaxe
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ASPYRIUM_PICKAXE.get())
-                .define('A', ModItems.ASPYRIUM_INGOT.get()).define('S', Items.STICK)
-                .pattern("AAA").pattern(" S ").pattern(" S ")
-                .unlockedBy("has_aspyrium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ASPYRIUM_INGOT.get()).build()))
-                .save(consumer);
+        pickaxe(consumer, ModItems.ASPYRIUM_PICKAXE.get(), ModItems.ASPYRIUM_INGOT.get());
 
         // Aspyrium Shovel
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ASPYRIUM_SHOVEL.get())
-                .define('A', ModItems.ASPYRIUM_INGOT.get()).define('S', Items.STICK)
-                .pattern(" A ").pattern(" S ").pattern(" S ")
-                .unlockedBy("has_aspyrium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ASPYRIUM_INGOT.get()).build()))
-                .save(consumer);
+        shovel(consumer, ModItems.ASPYRIUM_SHOVEL.get(), ModItems.ASPYRIUM_INGOT.get());
 
         // Aspyrium Sword
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ASPYRIUM_SWORD.get())
-                .define('A', ModItems.ASPYRIUM_INGOT.get()).define('S', Items.STICK)
-                .pattern(" A ").pattern(" A ").pattern(" S ")
-                .unlockedBy("has_aspyrium_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ASPYRIUM_INGOT.get()).build()))
+        sword(consumer, ModItems.ASPYRIUM_SWORD.get(), ModItems.ASPYRIUM_INGOT.get());
+    }
+
+    protected static void pickaxe(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike material) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('M', material)
+                .define('S', Items.STICK)
+                .pattern("MMM")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_" + getItemName(material),
+                        inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(consumer);
+    }
+
+    protected static void sword(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike material) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, result)
+                .define('M', material)
+                .define('S', Items.STICK)
+                .pattern(" M ")
+                .pattern(" M ")
+                .pattern(" S ")
+                .unlockedBy("has_" + getItemName(material),
+                        inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(consumer);
+    }
+
+    protected static void axe(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike material) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('M', material)
+                .define('S', Items.STICK)
+                .pattern("MM ")
+                .pattern("MS ")
+                .pattern(" S ")
+                .unlockedBy("has_" + getItemName(material),
+                        inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(consumer);
+    }
+
+    protected static void hoe(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike material) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('M', material)
+                .define('S', Items.STICK)
+                .pattern("MM ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_" + getItemName(material),
+                        inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(consumer);
+    }
+
+    protected static void shovel(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike material) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('M', material)
+                .define('S', Items.STICK)
+                .pattern(" M ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_" + getItemName(material),
+                        inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
                 .save(consumer);
     }
 

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "A": {
+    "M": {
       "item": "ores:aspyrium_ingot"
     },
     "S": {
@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "AA ",
-    "AS ",
+    "MM ",
+    "MS ",
     " S "
   ],
   "result": {
