@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ores:iron_hammer",
+    "ores:aspyrium_hammer",
+    "ores:diamond_hammer",
+    "ores:netherite_hammer"
+  ]
+}
