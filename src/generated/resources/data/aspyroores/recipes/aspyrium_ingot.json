@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "aspyroores:aspyrium_compound"
+  },
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "aspyroores:aspyrium_ingot"
+  },
+  "template": []
+}

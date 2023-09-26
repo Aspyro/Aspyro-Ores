@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "aspyroores:aspyrium_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "ASA",
+    " S "
+  ],
+  "result": {
+    "item": "aspyroores:diamond_hammer"
+  },
+  "show_notification": true
+}

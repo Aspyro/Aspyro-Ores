@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "aspyroores:aspyrium_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AIA",
+    "ASA",
+    " S "
+  ],
+  "result": {
+    "item": "aspyroores:aspyrium_hammer"
+  },
+  "show_notification": true
+}

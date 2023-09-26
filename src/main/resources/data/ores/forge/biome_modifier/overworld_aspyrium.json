@@ -4,6 +4,6 @@
     "frozen_river",
     "river"
   ],
-  "features": "ores:aspyrium_placed",
+  "features": "aspyroores:aspyrium_placed",
   "step": "underground_ores"
 }

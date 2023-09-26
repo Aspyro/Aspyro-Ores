@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aspyroores:raw_aspyrium"
+    },
+    {
+      "tag": "aspyroores:hammer"
+    }
+  ],
+  "result": {
+    "item": "aspyroores:aspyrium_dust"
+  }
+}

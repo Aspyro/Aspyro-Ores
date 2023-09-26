@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aspyroores:aspyrium_compound"
+    },
+    {
+      "item": "aspyroores:aspyrium_compound"
+    },
+    {
+      "item": "aspyroores:aspyrium_compound"
+    },
+    {
+      "item": "aspyroores:aspyrium_compound"
+    },
+    {
+      "item": "aspyroores:aspyrium_compound"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "aspyroores:aspyrium_stick"
+  }
+}

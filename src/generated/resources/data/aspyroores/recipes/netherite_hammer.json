@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "aspyroores:aspyrium_stick"
+    }
+  },
+  "pattern": [
+    "NDN",
+    "DSD",
+    " S "
+  ],
+  "result": {
+    "item": "aspyroores:netherite_hammer"
+  },
+  "show_notification": true
+}
