@@ -55,6 +55,7 @@ public class AspyroOres
             event.accept(ModBlocks.SINJ_ORE);
             event.accept(ModItems.SINJ_GEM);
 
+            event.accept(ModBlocks.QUIXELAN_ORE);
             event.accept(ModItems.QUIXELAN_GEM);
 
         }

@@ -17,8 +17,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        add(ModBlocks.ASPYRIUM_ORE.get(), (block -> createOreDrop(ModBlocks.ASPYRIUM_ORE.get(), ModItems.RAW_ASPYRIUM.get())));
-        add(ModBlocks.SINJ_ORE.get(), (block -> createOreDrop(ModBlocks.SINJ_ORE.get(), ModItems.SINJ_GEM.get())));
+        add(ModBlocks.ASPYRIUM_ORE.get(), block -> createOreDrop(ModBlocks.ASPYRIUM_ORE.get(), ModItems.RAW_ASPYRIUM.get()));
+        add(ModBlocks.SINJ_ORE.get(), block -> createOreDrop(ModBlocks.SINJ_ORE.get(), ModItems.SINJ_GEM.get()));
+        add(ModBlocks.QUIXELAN_ORE.get(), block -> createOreDrop(ModBlocks.QUIXELAN_ORE.get(), ModItems.QUIXELAN_GEM.get()));
     }
 
     @Override

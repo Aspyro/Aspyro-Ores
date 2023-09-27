@@ -6,6 +6,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockStateProvider extends BlockStateProvider {
@@ -17,6 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.ASPYRIUM_ORE);
         blockWithItem(ModBlocks.SINJ_ORE);
+        blockWithItem(ModBlocks.QUIXELAN_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
