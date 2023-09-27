@@ -24,6 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ASPYRIUM_STICK);
         simpleItem(ModItems.RAW_ASPYRIUM);
         simpleItem(ModItems.SINJ_GEM);
+        simpleItem(ModItems.QUIXELAN_GEM);
 
         handheldItem(ModItems.ASPYRIUM_AXE);
         handheldItem(ModItems.ASPYRIUM_HAMMER);
