@@ -44,6 +44,135 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "aspyroores:aspyrium_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "aspyroores:raw_aspyrium"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 35
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "aspyroores:iron_hammer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "aspyroores:aspyrium_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "aspyroores:raw_aspyrium"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "aspyroores:aspyrium_hammer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "aspyroores:aspyrium_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "aspyroores:raw_aspyrium"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "aspyroores:diamond_hammer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "aspyroores:aspyrium_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "aspyroores:raw_aspyrium"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "aspyroores:netherite_hammer"
+            ]
+          }
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2,
+          "add": false,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
     }
   ]
 }

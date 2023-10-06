@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+
     {
-      "item": "aspyroores:raw_aspyrium"
+      "item": "aspyroores:iron_hammer"
     },
     {
-      "tag": "aspyroores:hammer"
+      "item": "aspyroores:aspyrium_hammer"
+    },
+    {
+      "item": "aspyroores:diamond_hammer"
+    },
+    {
+      "item": "aspyroores:netherite_hammer"
+    },
+    {
+      "item": "aspyroores:raw_aspyrium"
     }
   ],
   "result": {
