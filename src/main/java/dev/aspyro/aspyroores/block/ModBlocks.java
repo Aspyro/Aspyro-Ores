@@ -2,9 +2,11 @@ package dev.aspyro.aspyroores.block;
 
 import dev.aspyro.aspyroores.AspyroOres;
 import dev.aspyro.aspyroores.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,8 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, AspyroOres.MOD_ID);
 
     public static final RegistryObject<Block> ASPYRIUM_ORE = registerBlock("aspyrium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0F).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3F), UniformInt.of(0, 2)));
     public static final RegistryObject<Block> SINJ_ORE = registerBlock("sinj_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3.0F).requiresCorrectToolForDrops()));
