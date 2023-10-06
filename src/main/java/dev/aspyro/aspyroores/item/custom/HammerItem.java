@@ -1,4 +1,4 @@
-package dev.aspyro.ores.item.custom;
+package dev.aspyro.aspyroores.item.custom;
 
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.ItemStack;
